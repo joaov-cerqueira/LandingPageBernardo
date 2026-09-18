@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520">
+  <defs>
+    <linearGradient id="car" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#2b9bff"/><stop offset=".55" stop-color="#0f74d8"/><stop offset="1" stop-color="#064f9d"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#cce8ff" stop-opacity=".9"/><stop offset="1" stop-color="#2a4057" stop-opacity=".95"/>
+    </linearGradient>
+  </defs>
+  <g transform="translate(95 95)">
+    <path d="M138 210c24-74 80-124 172-144 108-23 286-19 389 4 72 16 132 68 190 139l87 17c35 7 64 37 64 74v34H65v-44c0-36 27-66 63-74z" fill="url(#car)" stroke="#60b4ff" stroke-width="4"/>
+    <path d="M310 79c84-16 244-14 344 4 48 9 88 43 129 91H244c18-45 39-76 66-95z" fill="url(#glass)" opacity=".86"/>
+    <path d="M502 82v92" stroke="#142333" stroke-width="8" opacity=".85"/>
+    <path d="M690 90l48 84" stroke="#142333" stroke-width="8" opacity=".85"/>
+    <circle cx="270" cy="326" r="68" fill="#0b1017" stroke="#3e4d5e" stroke-width="12"/>
+    <circle cx="270" cy="326" r="30" fill="#8d9aa9"/>
+    <circle cx="830" cy="326" r="68" fill="#0b1017" stroke="#3e4d5e" stroke-width="12"/>
+    <circle cx="830" cy="326" r="30" fill="#8d9aa9"/>
+    <path d="M80 276h75" stroke="#d8efff" stroke-width="15" stroke-linecap="round" opacity=".85"/>
+    <path d="M940 276h73" stroke="#ff5373" stroke-width="15" stroke-linecap="round" opacity=".85"/>
+  </g>
+  <text x="600" y="485" text-anchor="middle" fill="#dbeaff" font-size="42" font-family="Arial, sans-serif" font-weight="800">TIGUAN</text>
+</svg>

@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- SEO principal -->
+  <title>Bernardo Oliveira | Volkswagen | Atendimento pelo WhatsApp</title>
+  <meta name="description" content="Fale com Bernardo Oliveira sobre Volkswagen 0 km. Conheça Polo, Tera, Virtus, Saveiro, T-Cross, Nivus, Taos e Tiguan e peça atendimento direto pelo WhatsApp." />
+  <meta name="keywords" content="Volkswagen, VW, Bernardo Oliveira, Bernardo Lima, Polo, Tera, Virtus, Saveiro, T-Cross, Nivus, Taos, Tiguan, carro zero km" />
+  <meta name="robots" content="index, follow" />
+  <meta name="theme-color" content="#0a0d12" />
+
+  <!-- Ao publicar com domínio próprio, troque pela URL real do site -->
+  <link rel="canonical" href="https://SEU-DOMINIO-AQUI.com.br/" />
+
+  <!-- Compartilhamento em WhatsApp / redes sociais -->
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="pt_BR" />
+  <meta property="og:title" content="Bernardo Oliveira | Volkswagen" />
+  <meta property="og:description" content="Escolha seu Volkswagen e fale diretamente com Bernardo pelo WhatsApp." />
+  <meta property="og:image" content="imagens/bernardo.svg" />
+
+  <link rel="icon" href="imagens/favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Configuração simples do vendedor e dos veículos -->
+  <script src="config.js" defer></script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="pular-conteudo" href="#veiculos">Pular para veículos</a>
+
+  <header class="topo" aria-label="Cabeçalho">
+    <a class="marca" href="#inicio" aria-label="Voltar ao início">
+      <span class="marca-ponto"></span>
+      <span>BERNARDO <strong>VW</strong></span>
+    </a>
+
+    <button class="botao botao-menor botao-whatsapp" type="button" data-acao="whatsapp-geral">
+      Falar no WhatsApp
+    </button>
+  </header>
+
+  <main>
+    <!-- Primeira tela: Bernardo é a primeira coisa que o cliente vê -->
+    <section class="hero" id="inicio" aria-labelledby="titulo-principal">
+      <div class="hero-conteudo">
+        <p class="etiqueta">Atendimento Volkswagen</p>
+
+        <h1 id="titulo-principal">
+          BERNARDO<br />
+          <span>OLIVEIRA</span>
+        </h1>
+
+        <p class="hero-frase" id="frase-vendedor">
+          Seu próximo Volkswagen começa com uma boa conversa.
+        </p>
+
+        <div class="hero-acoes">
+          <button class="botao botao-destaque botao-whatsapp" type="button" data-acao="whatsapp-geral">
+            Falar com Bernardo
+          </button>
+
+          <a class="link-secundario" href="#veiculos">Ver veículos</a>
+        </div>
+
+        <div class="hero-provas" aria-label="Diferenciais do atendimento">
+          <span>Atendimento direto</span>
+          <span>Resposta no WhatsApp</span>
+          <span>VW 0 km</span>
+        </div>
+      </div>
+
+      <div class="hero-foto" aria-label="Foto de Bernardo Oliveira">
+        <div class="brilho-foto"></div>
+        <img
+          id="foto-bernardo"
+          src="imagens/bernardo.svg"
+          alt="Bernardo Oliveira, atendimento Volkswagen"
+          width="760"
+          height="920"
+          fetchpriority="high"
+        />
+        <div class="linha-foto"></div>
+      </div>
+
+      <a class="seta-descer" href="#veiculos" aria-label="Descer para conhecer os veículos">
+        <span>Conheça os veículos</span>
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M12 4v15m0 0-6-6m6 6 6-6" />
+        </svg>
+      </a>
+    </section>
+
+    <!-- Catálogo interativo -->
+    <section class="secao-veiculos" id="veiculos" aria-labelledby="titulo-veiculos">
+      <div class="secao-cabecalho">
+        <p class="etiqueta">Escolha o seu</p>
+        <h2 id="titulo-veiculos">Qual Volkswagen combina com você?</h2>
+        <p>Clique em um modelo para ver o carro e as informações principais.</p>
+      </div>
+
+      <nav class="lista-modelos" id="lista-modelos" aria-label="Modelos Volkswagen"></nav>
+
+      <div class="palco-veiculo" id="palco-veiculo" aria-live="polite">
+        <div class="estado-inicial" id="estado-inicial">
+          <span class="pulso"></span>
+          <p>Escolha um modelo acima.</p>
+        </div>
+
+        <article class="cartao-veiculo" id="cartao-veiculo" hidden>
+          <div class="titulo-modelo-linha">
+            <div>
+              <p class="etiqueta">Volkswagen</p>
+              <h3 id="nome-veiculo">Nivus</h3>
+            </div>
+            <span class="selo" id="categoria-veiculo">SUV</span>
+          </div>
+
+          <div class="area-animacao" id="area-animacao">
+            <div class="poeira" id="poeira" aria-hidden="true"></div>
+            <img
+              class="imagem-veiculo"
+              id="imagem-veiculo"
+              src=""
+              alt=""
+              width="1200"
+              height="520"
+            />
+          </div>
+
+          <div class="dados-veiculo">
+            <div class="dado">
+              <span>Motorização</span>
+              <strong id="motor-veiculo">—</strong>
+            </div>
+
+            <div class="dado">
+              <span>Câmbio</span>
+              <strong id="cambio-veiculo">—</strong>
+            </div>
+
+            <div class="dado">
+              <span>Destaque</span>
+              <strong id="destaque-veiculo">—</strong>
+            </div>
+          </div>
+
+          <button class="botao botao-destaque botao-interesse" id="botao-interesse" type="button">
+            Quero falar sobre este Volkswagen
+          </button>
+
+          <p class="nota-tecnica">
+            Especificações podem variar conforme versão e ano-modelo. Confirme os detalhes no atendimento.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Fechamento objetivo -->
+    <section class="chamada-final" aria-labelledby="titulo-final">
+      <p class="etiqueta">Atendimento sem enrolação</p>
+      <h2 id="titulo-final">Já sabe qual VW quer?</h2>
+      <p>Fale diretamente com Bernardo e consulte disponibilidade, versões e condições.</p>
+      <button class="botao botao-destaque botao-whatsapp" type="button" data-acao="whatsapp-geral">
+        Chamar Bernardo no WhatsApp
+      </button>
+    </section>
+  </main>
+
+  <footer class="rodape">
+    <p>© <span id="ano-atual"></span> Bernardo Oliveira. Atendimento de veículos Volkswagen.</p>
+    <p>Volkswagen e os nomes dos modelos são marcas de seus respectivos titulares.</p>
+  </footer>
+
+  <!-- Botão flutuante: aparece depois que o cliente começa a navegar -->
+  <button class="whatsapp-flutuante botao-whatsapp" type="button" data-acao="whatsapp-geral" aria-label="Falar com Bernardo no WhatsApp">
+    <span>WhatsApp</span>
+  </button>
+
+  <noscript>
+    <p class="aviso-sem-js">Ative o JavaScript para visualizar o catálogo interativo.</p>
+  </noscript>
+</body>
+</html>

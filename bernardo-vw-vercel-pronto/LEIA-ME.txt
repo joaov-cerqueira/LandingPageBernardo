@@ -1,0 +1,54 @@
+LANDING PAGE — BERNARDO OLIVEIRA VW
+===================================
+
+COMO ABRIR
+1. Dê dois cliques em index.html.
+2. O site abre no navegador. Não precisa instalar nada.
+
+ANTES DE PUBLICAR — MUITO IMPORTANTE
+1. Abra config.js no Bloco de Notas.
+2. Procure: whatsapp: "5521999999999"
+3. Troque pelo número REAL do Bernardo, com 55 + DDD + número, somente números.
+4. Logo abaixo, troque:
+   whatsappEhExemplo: true
+   por:
+   whatsappEhExemplo: false
+
+EXEMPLO
+Se o número fosse (21) 99999-9999:
+whatsapp: "5521999999999"
+
+FOTO DO BERNARDO
+- A imagem atual é apenas um marcador visual.
+- Coloque a foto real dentro da pasta imagens.
+- Recomendo PNG ou WebP sem fundo.
+- Depois, no config.js, troque:
+  foto: "imagens/bernardo.svg"
+  por algo como:
+  foto: "imagens/bernardo.png"
+
+IMAGENS DOS CARROS
+- Os arquivos atuais são placeholders para o site funcionar imediatamente.
+- Coloque as imagens reais, preferencialmente PNG/WebP sem fundo, na pasta imagens.
+- No config.js, altere somente o caminho de cada campo "imagem".
+
+WHATSAPP DOS CARROS
+O texto é criado automaticamente.
+Exemplo ao clicar no Polo:
+"Olá Bernardo, estou interessado em um Polo. Gostaria de saber valores e condições."
+
+SEO
+- O título, descrição, Open Graph e dados estruturados já estão configurados.
+- No index.html, procure "SEU-DOMINIO-AQUI" e troque pelo domínio real depois de publicar.
+- Não encha o site de palavras repetidas: o SEO técnico já está estruturado de forma limpa.
+
+DADOS DOS VEÍCULOS
+- As informações são referências das páginas oficiais Volkswagen Brasil consultadas em setembro/2026.
+- Versões e especificações podem mudar. Confira antes de publicar promoções ou ficha técnica detalhada.
+
+ARQUIVOS PRINCIPAIS
+- index.html = estrutura e textos da página
+- style.css = aparência e animações
+- config.js = nome, WhatsApp, foto e dados dos carros (principal arquivo para você editar)
+- script.js = comportamento, WhatsApp e animação do carro
+- imagens/ = fotos
