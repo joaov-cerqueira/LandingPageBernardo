@@ -3,9 +3,9 @@ window.CONFIGURACAO_SITE = {
     nome: "Bernardo Oliveira",
     frase: "Seu próximo Volkswagen começa com uma boa conversa.",
 
-    whatsapp: "5521999999999",
+    whatsapp: "5521992078950",
 
-    whatsappEhExemplo: true,
+    whatsappEhExemplo: false,
 
     foto: "imagens/bernardo.png"
   },
